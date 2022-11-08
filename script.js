@@ -12,7 +12,7 @@ document.getElementById("calculate").addEventListener("click", function (){
     
     let finalResult = ((bill)*sq_Meter);
     
-    result.innerHTML= "GSM - "+finalResult;
+    result.innerHTML= "Item Weight - "+finalResult;
     
     
 
