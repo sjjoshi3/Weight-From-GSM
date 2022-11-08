@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Sign Up Page">
+  <meta name="author" content="App Bwery Student Sjjoshi3">
+  <meta name="generator" content="Sjjoshi3">
+  <title>GSM Calculator!</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.2/examples/sign-in/">
+
+
+  <link rel="stylesheet" href="style.css">
+
+
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+
+</head>
+
+<body class="text-center">
+
+  <main class="form-signin w-100 m-auto">
+
+    <form id="form">
+
+      <div id="heading">
+        <h3 class="b">GSM CALCULATOR</h3>
+      </div>
+
+
+      <div id="inside-form">
+
+        <div class="form-floating">
+
+
+          <input type="number" class="form-control" id="bill" placeholder="GSM Please" name="totalBill">
+
+          <label for="floatingInput" class="fontWeight">Enter GSM Of Fabric.</label>
+
+        </div>
+
+        <div class="form-floating">
+
+          <select id="service" class="form-control">
+
+            <option>Select Stitching Gap.</option>
+            <option value="2" id="twenty"><b> 2 Cms.</b> </option>
+            <option value="3" id="ten"><b></b>3 Cms </b> </option>
+            <option value="4" id="five"><b> 4 Cms</b></option>
+
+          </select>
+
+
+          <label for="floatingInput" class="fontWeight">How Was The Service?</label>
+
+
+
+
+
+        </div>
+
+
+        <div class="form-floating">
+          <input type="number" class="form-control" id="length" name="totalPerson" placeholder="length">
+          <input type="number" class="form-control" id="width" name="totalPerson" placeholder="width">
+          
+          <label for="floatingNumber" class="fontWeight" style="font-size: .9rem;">
+          Enter The Length An Width Of Fabric In Cms.
+          </label>
+        </div>
+
+      </div>
+
+      <div class="w-75 btn btn-danger" id="calculate">CALCULATE</div>
+      <br><br>
+      <h4></h4>
+      <p id="result">Fabric weight. </p>
+     
+    </form>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
