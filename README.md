@@ -1,1 +1,1 @@
-# gsmSolver
+# Weight From GSM
