@@ -10,7 +10,7 @@ document.getElementById("calculate").addEventListener("click", function (){
     var result =  document.getElementById("result");
     let sq_Meter = ((length+service)*(width+service)/10000) ;
     
-    let finalResult = ((bill)*sq_Meter);
+    let finalResult = ((bill)*sq_Meter).toFixed(1);
     
     result.innerHTML= "Item Weight " +finalResult +" g.";
     
